@@ -4,12 +4,15 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const ENV_WEB_URL = process.env.WEB_URL ? process.env.WEB_URL : 'http://localhost/'
+const ENV_BASE_URL = process.env.BASE_URL ? process.env.BASE_URL : '/'
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'QVR Product Technical Document',
   tagline: 'This website will list common issues of QVR series products.',
-  url: process.env.WEB_URL,
-  baseUrl: process.env.BASE_URL,
+  url: ENV_WEB_URL,
+  baseUrl: ENV_BASE_URL,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
