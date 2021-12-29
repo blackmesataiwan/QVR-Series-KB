@@ -7,11 +7,11 @@ sidebar_position: 4
 This article will introduce the folder structure of QVR Elite's recording spaces. QVR Elite can use a specific share folder as the recording space location when creating a recording space.
 After you have created the recording space, you can see the path of the recording space in the setting:
 
-![](/assets/截圖2021-10-28.png)
+![](/assets/recording_space_path.png)
 
 You can use "File Station" to open the recording space folder:
 
-![](/assets/image.png)
+![](/assets/elite_record_path.png)
 
 The following explains the functions of each layer of folders:
 
@@ -41,4 +41,4 @@ According to the above structure, changing the time zone will only affect the na
 
 :::
 
-![](/assets/image(1).png)
+![](/assets/elite_record_time.png)

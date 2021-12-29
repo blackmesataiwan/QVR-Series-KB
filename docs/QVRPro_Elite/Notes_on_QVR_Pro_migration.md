@@ -15,7 +15,7 @@ sidebar_position: 3
 
 To check the CPU architecture, you can refer to the CPU Architecture column on the model specifications page : 
 https://www.qnap.com/go/product/
-![](/assets/image(2).png) ![](/assets/image(3).png)
+![](/assets/cpu_arch_arm.png) ![](/assets/cpu_arch_x86.png)
 
 :::
 
@@ -77,6 +77,6 @@ Recovery :
 :::caution
 
 When importing the recording file, please select the **QVI_Format** top-level folder, like this picture : 
-![](/assets/image(4).png)
+![](/assets/import_recording_path.png)
 
 :::

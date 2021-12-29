@@ -6,13 +6,13 @@ sidebar_position: 2
 
 If there is a issue that the QVR Pro database cannot be migrated (like the edit button in the image below is grayed out) :
 
-![](/assets/59e57b855b6996cb868ba843a50ba19b272fb743.png)
+![](/assets/qvr_pro_database_edit.png)
 
 It may be that the currently logged-in account does not have the read and write permissions for the "QVRProDB" shared folder. Please refer to the following instructions:
 
 - NAS : Please check whether the permissions of the shared folder "QVRProDB" have open user or user group read and write permissions :
 
-![GetImage (3).png](/assets/bb8249068432bd2db98f677128fd28c83b56f67d.png)
+![GetImage (3).png](/assets/user_premission.png)
 
 - QVP : Only the "admin" account can be migrate database.
 
