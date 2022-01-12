@@ -12,7 +12,6 @@ This message means that the current NAS/QVP is overloaded, and QVR Pro cannot sa
 
 - Check if there is any other app taking up too much CPU/RAM resources, and we recommend to keep a max load less than 75~80%.
 - Check if the percentage of CPU IO wait and the storage latency go too high :
-  
   ![](/assets/qvrpro/io_wait.png)
   ![](/assets/qvrpro/volume_latency.png)
 
@@ -26,6 +25,9 @@ This message means that the current NAS/QVP is overloaded, and QVR Pro cannot sa
 
   :::
 
-Follow the instruction below if If the **"Recording Buffer Overflow"** log happened at 03:00 AM repeatedly :
-- Disable the function of checking the folder size daily. Checking the folder size function will increase the IO load.<br/>
-  ![](/assets/qvrpro/disable_daily_update_folder_size.png)
+- Check if the NAS is in the process of RAID rebuild, migration, scrub and sync, please wait for the job to finish or adjust the job priority to **"Service First (Low speed)"** : 
+  ![](/assets/qvrpro/RAID_Priority.png)
+
+- Follow the instruction below if If the **"Recording Buffer Overflow"** log happened at 03:00 AM repeatedly :
+  - Disable the function of checking the folder size daily. Checking the folder size function will increase the IO load.<br/>
+    ![](/assets/qvrpro/disable_daily_update_folder_size.png)
