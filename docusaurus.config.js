@@ -96,7 +96,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      zoomSelector: '.markdown :not(h2) > img',
+      zoomSelector: '.markdown :not(h2,em) > img',
     }),
 };
 
