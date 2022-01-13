@@ -7,7 +7,7 @@ sidebar_position: 2
 Here is the description of the licenses of all QNAP surveillance products, please refer to the table below :
 ​
 
-## <img src="/icon/QVRPro.svg" class="icons"/>QVR Pro
+## <img src="/icon/QVRProServer_80.png" class="icons"/> QVR Pro
 
 **Software Store : https://software.qnap.com/qvr-pro.html**
 
@@ -19,7 +19,7 @@ Here is the description of the licenses of all QNAP surveillance products, pleas
 | LIC-SW-QVRPRO-FULLPLAYBACK | QTS<br/>QVP        | Unlimited Playback.<br/>Perpetual, Non-transferable                               |
 | LIC-SW-QVRPRO-GOLD         | QTS<br/>QVP        | - Unlimited Playback.<br/>- 8 Additional Channel.<br/>Perpetual, Non-transferable |
 
-## <img src="/icon/Elite.svg" class="icons"/>QVR Elite
+## <img src="/icon/QVRElite_80.png" class="icons"/> QVR Elite
 
 **Software Store : https://software.qnap.com/qvr-elite.html**
 
@@ -29,7 +29,7 @@ Here is the description of the licenses of all QNAP surveillance products, pleas
 | LS-QVRELITE-1CH-1Y | QTS<br/>QuTS Hero  | One Channel Annual Subscription<br/>Subscription, Transferable     |
 | N/A                | QTS<br/>QuTS Hero  | One Channel Tri-Yearly Subscription<br/>Subscription, Transferable |
 
-## <img src="/icon/Elite.svg" class="icons"/>QVR Elite for Cloud
+## <img src="/icon/QVRElite_80.png" class="icons"/> QVR Elite for Cloud
 
 **Software Store : https://software.qnap.com/qvr-elite.html**
 
@@ -39,7 +39,7 @@ Here is the description of the licenses of all QNAP surveillance products, pleas
 | N/A          | QuTS Cloud         | One Channel for QuTScloud Monthly Subscription<br/>Subscription, Transferable   |
 | N/A          | QuTS Cloud         | One Channel for QuTScloud Annual Subscription<br/>Subscription, Transferable    |
 
-## <img src="/icon/QVRPro.svg" class="icons"/>QVP Series NVR
+## <img src="/icon/QVRProServer_80.png" class="icons"/> QVP Series NVR
 
 **Software Store Store : https://software.qnap.com/qvr-pro.html**
 
@@ -55,7 +55,7 @@ QVP already includes Unlimited Playback and supports QVR Center management, no n
 
 :::
 
-## <img src="/icon/QVRCenter.svg" class="icons"/>QVR Center
+## <img src="/icon/QVRCenter_80.png" class="icons"/> QVR Center
 
 **Software Store : https://software.qnap.com/qvr-center.html**
 
@@ -71,11 +71,11 @@ You don’t need a QVR Center license for recording servers that have installed 
 
 :::
 
-## <img src="/icon/QVRGuard.svg" class="icons"/>QVR Guard
+## <img src="/icon/QVRGuard_80.png" class="icons"/> QVR Guard
 
 No needed licenses.
 
-## <img src="/icon/smartsearch.svg" class="icons"/>QVR Smart Search
+## <img src="/icon/QVRSmartSearch_80.png" class="icons"/> QVR Smart Search
 
 **Software Store : https://software.qnap.com/qvr-ai-pack.html**
 
@@ -84,7 +84,7 @@ No needed licenses.
 | N/A                             | QTS<br/>QuTS Hero<br/>QVP  | The QVR AI Pack license empowers your NAS with QVR Smart Search (video searching) and QVR Smart Client (HDMI output).<br/>Subscription, Transferable |
 | LS-QVRSMART<br/>(Manufacturing) | QTS<br/>QuTS Hero<br/>QVP  | QVR Smart Search 1 Year Duration<br/>Subscription, Transferable                                                                                      |
 
-## <img src="/icon/QVRProClient.svg" class="icons"/>QVR Smart Client
+## <img src="/icon/QVRLocalDisplay_80.png" class="icons"/> QVR Smart Client
 
 **Software Store : https://software.qnap.com/qvr-ai-pack.html**
 
@@ -92,7 +92,7 @@ No needed licenses.
 | ------------ |: ------------------------ :| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | N/A          | QTS<br/>QuTS Hero<br/>QVP  | The QVR AI Pack license empowers your NAS with QVR Smart Search (video searching) and QVR Smart Client (HDMI output).<br/>Subscription, Transferable |
 
-## <img src="/icon/QVRProClient.svg" class="icons"/>QVR Pro Client for Windows
+## <img src="/icon/QVRLocalDisplay_80.png" class="icons"/> QVR Pro Client for Windows
 
 | Licenses                          | Software Store                                                                                   | Description                        | If not purchased                              |
 | --------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------- | --------------------------------------------- |
@@ -104,7 +104,7 @@ The Mac version of QVR Pro Client does not require the additional purchase of an
 
 :::
 
-## <img src="/icon/QVRViewer.svg" class="icons"/>QVR Viewer for Apple TV
+## <img src="/icon/QVRViewer_80.png" class="icons"/> QVR Viewer for Apple TV
 
 | Physical SKU    | Supported Platform | Description     |
 | --------------- |: ---------------- :| --------------- |
