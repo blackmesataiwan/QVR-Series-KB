@@ -2,8 +2,6 @@
 sidebar_position: 2
 ---
 
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,11 +14,11 @@ You can choose from the options below according to individual needs.
 
 QVR Pro Client is a cross-platform client utility that allows users to connect to QVR Pro, QVR Elite, QVR Center, or QVR Guard servers to monitor surveillance videos. You can monitor live streams and play back recorded videos at the same time on a highly-customizable interface.
 
-- Support : Windows/Mac OS
+- **Support : Windows/Mac OS**
 
 :::info
 
-If you want to watch H.265 (HEVC) format video streaming in Windows 10, you need to purchase HEVC licenses.
+If you want to watch H.265 (HEVC) format video streaming in Windows, you need to purchase HEVC licenses.
 
 :::
 
@@ -29,84 +27,34 @@ If you want to watch H.265 (HEVC) format video streaming in Windows 10, you need
 QVR Smart Client allows you to directly view surveillance footage by connecting the NAS with an HDMI output to an HDMI display.<br/>
 QVR Smart Client needs a license to use. You could buy it from https://software.qnap.com/qvr-ai-pack.html
 
-- Support : QNAP NAS HD Station
+- **Support : QNAP NAS HD Station**
 
 ### QVR Pro Client for Mobile
 
 QVR Pro Client for Mobile provides an intuitive interface for your QVR Pro/Elite server, helping you manage IP cameras, monitor live views, and play back previous recordings using your mobile devices.
 
-- Support : iOS/iPadOS/Android
+- **Support : iOS/iPadOS/Android**
 
 ### QVR Viewer
 
-QVR Viewer allows you to watch your QVR Pro, QVR Elite, and QVP series NVR cameras.<br/>
-You could easily check the camera views on your big screen.
+QVR Viewer allows you to watch your QVR Pro, QVR Elite, and QVP series NVR cameras. You could easily check the camera views on your big screen.
 
-- Support : Apple TV
+- **Support : Apple TV**
 
-## Functional limitations for each client :
+## Functional limitations for each client
 
-<Tabs>
-  <TabItem value="QVR Pro Client" default>
+| Functions                      |                               QVR Pro Client                               |                              QVR Smart Client                              |                       QVR Pro Client<br/> for Mobile                       |                                 QVR Viewer                                 |
+| ------------------------------ | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| Basic Operation(Live/Playback) | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |
+| PTZ Operation                  | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |
+| Fisheye Dewarping              | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |
+| \*Smart Search                 | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |                                                                            |
+| \*View Webpage                 | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |                                                                            |
+| Video Export                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |
+| Fisheye Dewarped Export        | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |                                                                            |
+| Connect to QVR Center          | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |                                                                            |
+| myQNAPcloud Link Connection    |                                                                            |                                                                            | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> Supported |                                                                            |
 
-| Functions                      |                            Supported                             |
-| ------------------------------ | :--------------------------------------------------------------: |
-| Basic operation(Live/Playback) | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| PTZ operation                  | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye Dewarping              | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Smart Search                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Web Page Viewer                | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Video Export                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye dewarped Export        | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Connect to QVR Center          | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| myQNAPcloud Link connection    |                                                                  |
+\* Requires installing Smart Search App on the NAS and purchasing a license. For more information, please refer to : [How to search the specific motion in recording footage by using QVR Smart Search?](https://www.qnap.com/en/how-to/tutorial/article/how-to-search-the-specific-motion-in-recording-footage-by-using-qvr-smart-search)
 
-  </TabItem>
-  <TabItem value="QVR Smart Client">
-
-| Functions                      |                            Supported                             |
-| ------------------------------ | :--------------------------------------------------------------: |
-| Basic operation(Live/Playback) | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| PTZ operation                  | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye Dewarping              | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Smart Search                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| \*Web Page Viewer              | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Video Export                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye dewarped Export        | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Connect to QVR Center          | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| myQNAPcloud Link connection    |                                                                  |
-
-*TS/TVS-x73 series models support "Web Page Viewer" after QTS 5.0.
-
-  </TabItem>
-  <TabItem value="QVR Pro Client for Mobile">
-
-| Functions                      |                            Supported                             |
-| ------------------------------ | :--------------------------------------------------------------: |
-| Basic operation(Live/Playback) | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| PTZ operation                  | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye Dewarping              | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Smart Search                   |                                                                  |
-| Web Page Viewer                |                                                                  |
-| Video Export                   | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| Fisheye dewarped Export        |                                                                  |
-| Connect to QVR Center          |                                                                  |
-| myQNAPcloud Link connection    | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-
-  </TabItem>
-  <TabItem value="QVR Viewer">
-
-| Functions                      |                            Supported                             |
-| ------------------------------ | :--------------------------------------------------------------: |
-| Basic operation(Live/Playback) | <FontAwesomeIcon icon={faCheckSquare} color="green" size="lg" /> |
-| PTZ operation                  |                                                                  |
-| Fisheye Dewarping              |                                                                  |
-| Smart Search                   |                                                                  |
-| Web Page Viewer                |                                                                  |
-| Video Export                   |                                                                  |
-| Fisheye dewarped Export        |                                                                  |
-| Connect to QVR Center          |                                                                  |
-| myQNAPcloud Link connection    |                                                                  |
-
-  </TabItem>
-</Tabs>
+\* QVR Smart Client for TS/TVS-x73 series models supports "View Web Page" after QTS 5.0.
